@@ -6,15 +6,37 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1>Rock Paper Scissors!</h1>
-    <button onclick="playRound()">Play one round!</button>
-    <button onclick="game()">Play 5 rounds</button>
-    <div id="results"></div>
-    <div id="overall-results"></div>
+    <div class="score">
+      <div class="player-wrapper">
+        <h2>Player</h2>
+        <div id="player-score">0</div>
+      </div>
+      <div class="computer-wrapper">
+        <h2>Computer</h2>
+        <div id="computer-score">0</div>
+      </div>
+    </div>
 
-    <script src="app.js" async defer></script>
+    <div class="buttons-container">
+      <button id="ROCK">Rock</button>
+      <button id="PAPER">Paper</button>
+      <button id="SCISSORS">Scissors</button>
+    </div>
+
+    <div class="container">
+      <div id="results">
+        <strong><u>Results</u></strong
+        ><br />
+      </div>
+      <div id="overall-results">
+        <strong><u>Wins/Losses</u></strong>
+      </div>
+    </div>
+
+    <script src="app.js" defer></script>
   </body>
 </html>

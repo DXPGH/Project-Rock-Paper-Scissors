@@ -1,0 +1,54 @@
+* {
+  background-color: lightgray;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+button {
+  padding: 10px;
+  background-color: lightblue;
+  min-width: 100px;
+  border-radius: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#results,
+#overall-results {
+  font-size: large;
+  text-align: center;
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+}
+
+.computer-wrapper,
+.player-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#player-score,
+#computer-score {
+  font-size: 50px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 25px;
+}
